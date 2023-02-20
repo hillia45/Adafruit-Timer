@@ -24,7 +24,7 @@ void loop() {
   for(i=0; i<NUM_LEDS; i++){
     pixels.setPixelColor(i, 0x000000);  // Disable LED
     pixels.show();                 // Refresh LED state
-    delay(target_ms);
+    delay(interval);
   }
 
   //Spin indefinitely
